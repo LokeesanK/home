@@ -85,6 +85,15 @@ ol.list2
 	color:#04b2f2;
 	text-align: left;
 }
+a.val
+{
+	font-family: "Verdana", Verdana, Sans-serif;
+	font-size: 14px;
+	color: #04b2f2;
+	text-align: left;
+	background-color: green;
+	text-decoration: underline;
+}
 /*defining the new/downloaded fonts:*/
 @font-face
 {

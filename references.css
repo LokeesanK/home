@@ -105,6 +105,15 @@ span.references
 	text-align: left;
 	background-color: green;
 }
+a.val
+{
+	font-family: "Verdana", Verdana, Sans-serif;
+	font-size: 14px;
+	color: #04b2f2;
+	text-align: left;
+	background-color: green;
+	text-decoration: underline;
+}
 @font-face
 {
 	font-family: Crete Round;
