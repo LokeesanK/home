@@ -1,0 +1,150 @@
+body 
+{
+    background-image: url("images/background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2.title2
+{
+	text-align:center;
+	font-size: 45px;
+	font-family: 'Algerian';
+	color: red;
+	font-weight: bold;
+}
+#header2 ul 
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+	font-size: 21px;
+	font-family: 'Playfair Display';
+}
+
+#header2 ul li 
+{ 
+	display: inline; 
+	width: 100%;
+}
+
+#header2 ul li a 
+{ 
+	text-decoration: none; 
+	padding: .3em 2em;
+	color:green;
+}
+a:link, a:visited, a:hover, a:active
+{
+	text-decoration: none;
+}
+
+#header2 ul li a:hover
+{
+	color:black;
+	background-color:blue;
+}
+p.link2
+{
+	text-align: center;
+	font-size: 18px;
+	color: red;
+	font-weight:bold;
+	font-family: "Lucida Console", Lucida, Monospace;
+	text-decoration: underline;
+}
+a#a2
+{
+	font-family: "Lucida Console", Lucida, Monospace;
+	color:blue;
+	text-align: right;
+	font-size: 20px;
+	font-weight: bold;
+}
+p.p2
+{
+    font-family: "Lucida Console", Lucida, Monospace;
+	font-size: 18px;
+	text-align: center;
+	color: blue;
+	font-weight: bold;
+}
+h2.infobio
+{
+	font-family:"Algerian" ;
+	color: white;
+	text-align: left;
+	text-decoration: underline;
+}
+p.biotext
+{
+	font-family: "Verdana", Verdana, Sans-serif;
+	font-size: 14px;
+	color: #04b2f2;
+	text-align: justify;
+}
+span#biop
+{
+	color: blue;
+	text-decoration:underline;
+}
+span#caption2
+{
+	background-color:yellow;
+	font-family: Playfair Display;
+}	
+p.biographytext
+{
+	font-family: "Verdana", Verdana, Sans-serif;
+	font-size: 14px;
+	color: #04b2f2;
+	text-align: left;
+	background-color: green;
+}
+span.fight
+{
+	font-family: "Verdana", Verdana, Sans-serif;
+	font-size: 14px;
+	color:blue;
+	text-align: justify;
+	background-color: green;
+}
+h3.biodesc
+{
+	font-family:"Algerian" ;
+	font-size: 28px;
+	text-align: left;
+	color: white;
+	text-decoration: underline;
+}
+ul.list1
+{
+	font-family: "Verdana", Verdana, Sans-serif;
+	font-size: 14px;
+	color: #04b2f2;
+	text-align: left;
+}
+/*defining the new/downloaded fonts:*/
+@font-face
+{
+	font-family: Crete Round;
+	src: url(fonts/CreteRound-Regular);
+}
+@font-face
+{
+	font-family: Playfair Display;
+	src: url(fonts/PlayfairDisplay-Black);
+}
+@font-face
+{
+	font-family: Jim Nightshade;
+	src: url(fonts/JimNightshade-Regular);
+}
+@font-face
+{
+	font-family: Algerian;
+	src: url(fonts/Algerian);
+}
+/*link to validation:http://jigsaw.w3.org/css-validator/validator$link*/
+
